@@ -1,4 +1,9 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
 
 body {
     font-family: Lato, sans-serif;
@@ -22,7 +27,6 @@ header a {
 .tagline {
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
-    float: left;
 }
 
 #menu {
