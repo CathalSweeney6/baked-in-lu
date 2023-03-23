@@ -1,0 +1,13 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #36454F;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.tagline {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
