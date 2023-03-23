@@ -7,7 +7,7 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300px;
-    color: #36454F;
+    color: #3a3a3a;
 }
 
 header a {
@@ -15,8 +15,9 @@ header a {
 }
 
 h1 {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
     color: #36454F;
+    letter-spacing: 4px;
     
 }
 
