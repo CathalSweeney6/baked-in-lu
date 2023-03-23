@@ -1,8 +1,4 @@
-* {
-    padding: 0;
-    margin: 0;
-    border: none;
-}
+
 
 body {
     font-family: Lato, sans-serif;
@@ -14,14 +10,22 @@ header a {
     color: #36454F;
 }
 
-h1 {
+#logo {
     font-family: 'Courier New', Courier, monospace, sans-serif;
     color: #36454F;
     letter-spacing: 4px;
+    float: left;
+    font-size: 280%;
     
 }
 
 .tagline {
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
+    float: left;
 }
+
+#menu {
+    float: right;
+}
+
