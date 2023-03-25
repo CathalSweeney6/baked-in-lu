@@ -15,12 +15,14 @@ header a {
     float: left;
     font-size: 280%;
     margin-left: 30px;
-    
+    text-decoration: none;  
 }
 
 #tagline {
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
+    font-size: 12px;
+    margin-left: 30px;
 }
 
 #menu {
@@ -38,3 +40,18 @@ header a {
     color: inherit;
 }
 
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+#hero-image {
+height: 600px;
+width: 100%;
+background:url(../images/dough-hero-image.jpg); no-repeat; center center;
+overflow: hidden;
+}
+
+#about {
+    float: inherit;
+    margin-left: 50px;
+}
