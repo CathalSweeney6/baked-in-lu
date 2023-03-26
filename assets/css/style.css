@@ -9,13 +9,28 @@ header a {
 }
 
 #logo {
-width: 200px;
-height: 200px;
-background-image: url(../images/logo-baked.jpg);
+max-width: 300px;
+max-height: 300px;
+resize: both;
+background-image: url(../images/beirbuabakes-logo.jpg)
 float: left;
 border-left: 60px;
 border-top: 30px;
+margin-top:40px;
 }
+
+#tagline {
+    float: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:xx-large;
+    text-align: right;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    color: #eab676;
+    margin-right: 30px;
+    margin-top: 180px;
+}
+
 
 #menu {
     font-size: 200%;
@@ -26,6 +41,7 @@ border-top: 30px;
     list-style-type: none;
     margin-right: 30px;
     margin-bottom: 30px;
+    margin-top: -60px;
 }
 
 #menu a {
