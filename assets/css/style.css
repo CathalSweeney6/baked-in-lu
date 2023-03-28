@@ -114,7 +114,7 @@ animation-name: hero-zoom;
     max-width: 400px;
     position:absolute;
     left:10%;
-    bottom: -50%;
+    bottom: -0%;
     padding:30px;
 }
 
@@ -178,5 +178,7 @@ animation-name: hero-zoom;
 #map {
     height: 100%;
     width: 100%;
+    right: 0;
+    left: 0;
     border: none;
 }
