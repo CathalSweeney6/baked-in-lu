@@ -64,6 +64,16 @@ animation-name: hero-zoom;
     animation-fill-mode: forwards;
 }
 
+.fa-brands fa-instagram {
+    float: right;
+    margin-right: 30px;
+    size: 50%;
+}
+
+.fa-brands fa-instagram:hover {
+    color: #ef8b24;
+}
+
 @keyframes hero-zoom {
     from{
         transform: scale(1);
@@ -76,6 +86,18 @@ animation-name: hero-zoom;
 #about {
     float: inherit;
     margin-left: 50px;
+    font-size: 5opx;
+}
+
+.contact-us {
+    float: left;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:  40px;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    color: #eab676;
+    margin-right: 30px;
+    margin-top: 100px;
 }
 
 .contact-section {
@@ -92,6 +114,7 @@ animation-name: hero-zoom;
     max-width: 400px;
     position:absolute;
     left:10%;
+    bottom: -50%;
     padding:30px;
 }
 
@@ -109,6 +132,19 @@ animation-name: hero-zoom;
     border-color:#ef8b24;
 }
 
+#message {
+    width: 102%;
+    height: 100px;
+    resize: both;
+    margin:5px 0 20px;
+    border: 1px solid #fafafa;
+    box-sizing: border-box;
+}
+
+#message:hover {
+    border-color:#ef8b24;
+}
+
 .submit-button {
     margin-top:20px;
     border-radius:2px;
@@ -123,4 +159,24 @@ animation-name: hero-zoom;
 .submit-button:hover {
     background-color:#fafafa;
     color: #ef8b24;
+}
+
+#social-media a {
+    text-decoration: none;
+}
+
+#social-media a:hover {
+    color: #ef8b24;
+}
+
+
+#map-wrapper {
+    height: 300px;
+    margin-bottom: 107px;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    border: none;
 }
