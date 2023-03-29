@@ -2,17 +2,29 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 300px;
     color: #3a3a3a;
+    background-color: #fffef1;
+}
+
+.fa-brands fa-instagram {
+    float: right;
+    margin-right: 30px;
+    size: 50%;
+}
+
+.fa-brands fa-instagram:hover {
+    color: #ef8b24;
 }
 
 header a {
     color: #36454F;
+    margin: 0;
 }
 
 #logo {
 max-width: 300px;
 max-height: 300px;
 resize: both;
-background-image: url(../images/beirbuabakes-logo.jpg)
+background-image: url(../images/beirbuabakes-logo.png)
 float: left;
 border-left: 30px;
 border-top: 30px;
@@ -55,38 +67,29 @@ margin-top:40px;
 }
 
 #hero-image {
-height: 600px;
+height: 1000px;
 width: 100%;
 background:url(../images/dough-hero-image.jpg); no-repeat; center center;
+background-size: cover;
 overflow: hidden;
-animation-name: hero-zoom;
-    animation-duration: 3s;
-    animation-fill-mode: forwards;
+margin-top: -130px;
 }
 
-.fa-brands fa-instagram {
-    float: right;
-    margin-right: 30px;
-    size: 50%;
-}
-
-.fa-brands fa-instagram:hover {
-    color: #ef8b24;
-}
-
-@keyframes hero-zoom {
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.1);
-    }
+#about-us-box {
+    background-color: #333333;
+    color: #fffef1;
+    width:95%;
+    height: 700px;
+    padding: 15px;
+    margin: 5px;
+    box-shadow: 0px 0px 0px 5px #ef8b24; inset;
 }
 
 #about {
     float: inherit;
     margin-left: 50px;
-    font-size: 5opx;
+    font-size: 50px;
+    text-align: center;
 }
 
 .contact-us {
@@ -97,24 +100,26 @@ animation-name: hero-zoom;
     letter-spacing: 10px;
     color: #eab676;
     margin-right: 30px;
-    margin-top: 100px;
+    margin-top: 140px;
 }
 
 .contact-section {
     clear: left;
     background: url(../images/contact-us-image.jpeg);
-    background-size: cover;
-    background-position: center;
-    height: 900px;
+    background-size:cover;
+    height: 1000px;
+    width: 100%;
+    margin-top: -100px;
 }
 .contact-us-form {
     margin:150px 10% 0 0;
     color:#fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
-    position:absolute;
-    left:10%;
-    bottom: -0%;
+    position: relative;
+    margin-left: -200px;
+    left:30%;
+    top: 60px;
     padding:30px;
 }
 
