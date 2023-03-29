@@ -1,22 +1,12 @@
 body {
     font-family: Lato, sans-serif;
     font-weight: 300px;
-    color: #3a3a3a;
+    color: #333333;
     background-color: #fffef1;
 }
 
-.fa-brands fa-instagram {
-    float: right;
-    margin-right: 30px;
-    size: 50%;
-}
-
-.fa-brands fa-instagram:hover {
-    color: #ef8b24;
-}
-
 header a {
-    color: #36454F;
+    color: #333333;
     margin: 0;
 }
 
@@ -38,7 +28,7 @@ margin-top:40px;
     text-align: right;
     font-weight: bolder;
     letter-spacing: 10px;
-    color: #eab676;
+    color: #d39b42;
     margin-right: 30px;
     margin-top: 100px;
 }
@@ -83,6 +73,7 @@ margin-top: -130px;
     padding: 15px;
     margin: 5px;
     box-shadow: 0px 0px 0px 5px #ef8b24; inset;
+    border-radius: 25px;
 }
 
 #about {
@@ -92,15 +83,22 @@ margin-top: -130px;
     text-align: center;
 }
 
-.contact-us {
-    float: left;
+#about h2{
     font-family: 'Courier New', Courier, monospace;
-    font-size:  40px;
-    font-weight: bolder;
-    letter-spacing: 10px;
-    color: #eab676;
-    margin-right: 30px;
-    margin-top: 140px;
+    color: #ef8b24;
+    
+}
+
+#about p {
+    text-align: left;
+    margin-left: 70px;
+}
+
+#our-bakes h2 {
+    color: #d39b42;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 100px;
 }
 
 .contact-section {
@@ -109,7 +107,7 @@ margin-top: -130px;
     background-size:cover;
     height: 1000px;
     width: 100%;
-    margin-top: -100px;
+    margin-top: -110px;
 }
 .contact-us-form {
     margin:150px 10% 0 0;
@@ -119,8 +117,9 @@ margin-top: -130px;
     position: relative;
     margin-left: -200px;
     left:30%;
-    top: 60px;
+    top: 140px;
     padding:30px;
+    border-radius: 25px;
 }
 
 .text-input {
@@ -166,8 +165,20 @@ margin-top: -130px;
     color: #ef8b24;
 }
 
-#social-media a {
+#social-media {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 20px;
+    color: #36454F;
+}
+
+#social-media a  {
     text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 30px;
+    
 }
 
 #social-media a:hover {
