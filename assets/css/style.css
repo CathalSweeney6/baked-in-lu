@@ -11,50 +11,61 @@ header a {
 }
 
 #logo {
-max-width: 300px;
-max-height: 300px;
+max-width: 200px;
+max-height: 200px;
 resize: both;
 background-image: url(../images/beirbuabakes-logo.png)
 float: left;
 border-left: 30px;
-border-top: 30px;
+border-top: 10px;
 margin-top:40px;
 }
 
 #tagline {
     float: right;
     font-family: 'Courier New', Courier, monospace;
-    font-size:  70px;
+    font-size:  50px;
     text-align: right;
     font-weight: bolder;
     letter-spacing: 10px;
     color: #d39b42;
     margin-right: 30px;
-    margin-top: 100px;
+    margin-top: 80px;
 }
-
-
-#menu {
-    font-size: 200%;
-}
-
-#menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-    margin-bottom: 30px;
-    margin-top: -60px;
-}
-
-#menu a {
+  
+.topnav {
+    background-color:#fffef1;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display:none;
+  }
+  
+  .topnav a {
+    color:#333333;
+    padding: 16px 14px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
     text-decoration: none;
-    color: inherit;
-}
-
-#menu a:hover {
-    border-bottom: 1px solid #ef8b24;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background:#fffef1;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
     color: #ef8b24;
-}
+  }
+
+
+
 
 #hero-image {
 height: 1000px;
