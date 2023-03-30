@@ -18,38 +18,42 @@ background-image: url(../images/beirbuabakes-logo.png)
 float: left;
 border-left: 30px;
 border-top: 10px;
-margin-top:40px;
+margin-top:10px;
+margin-left:80px;
 }
 
 #tagline {
     float: right;
     font-family: 'Courier New', Courier, monospace;
     font-size:  50px;
-    text-align: right;
+    text-align: center;
     font-weight: bolder;
     letter-spacing: 10px;
     color: #d39b42;
-    margin-right: 30px;
-    margin-top: 80px;
+    margin-right: 60px;
+    margin-top: 60px;
 }
   
 .topnav {
     background-color:#fffef1;
+    margin: auto;
+    margin-right: 60px;
     position: relative;
-  }
-  
+}
+
   .topnav #myLinks {
     display:none;
   }
   
   .topnav a {
     color:#333333;
-    padding: 16px 14px;
+    padding: 6px 6px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
     text-decoration: none;
-    font-size: 17px;
-    display: block;
+    font-size: 30px;
+    text-align: center;
+    display:block;
   }
   
   .topnav a.icon {
@@ -64,16 +68,13 @@ margin-top:40px;
     color: #ef8b24;
   }
 
-
-
-
 #hero-image {
 height: 1000px;
 width: 100%;
 background:url(../images/dough-hero-image.jpg); no-repeat; center center;
 background-size: cover;
 overflow: hidden;
-margin-top: -130px;
+margin-top: -50px;
 }
 
 #about-us-box {
@@ -90,19 +91,20 @@ margin-top: -130px;
 #about {
     float: inherit;
     margin-left: 50px;
-    font-size: 50px;
     text-align: center;
 }
 
 #about h2{
     font-family: 'Courier New', Courier, monospace;
     color: #ef8b24;
+    font-size: 50px;
     
 }
 
 #about p {
     text-align: left;
     margin-left: 70px;
+    font-size: 40px;
 }
 
 #our-bakes h2 {
