@@ -330,6 +330,13 @@ border: #ef8b24 solid 2px;
     width: 100%;
     margin-top: -130px;
 }
+
+.contact-us { 
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: #ef8b24;
+    font-size: 30px;
+}
 .contact-us-form {
     margin:150px 10% 0 0;
     color:#fff;
