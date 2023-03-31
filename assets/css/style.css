@@ -14,8 +14,6 @@ header a {
 max-width: 200px;
 max-height: 200px;
 resize: both;
-background-image: url(../images/beirbuabakes-logo.png)
-float: left;
 border-left: 30px;
 border-top: 10px;
 margin-top:10px;
@@ -81,16 +79,16 @@ margin-top: -50px;
     background-color: #333333;
     color: #fffef1;
     width:95%;
-    height: 700px;
+    height: 600px;
     padding: 15px;
-    margin: 5px;
+    margin-left: 10px;
     box-shadow: 0px 0px 0px 5px #ef8b24; inset;
     border-radius: 25px;
 }
 
 #about {
     float: inherit;
-    margin-left: 50px;
+    margin: 0;
     text-align: center;
 }
 
@@ -114,13 +112,223 @@ margin-top: -50px;
     font-size: 100px;
 }
 
+#strawberry  {
+width:300px;
+height:300px;
+resize: both;
+margin-left: 60px;
+float: left;
+border: #ef8b24 solid 2px;
+}
+
+#bake1 {
+    float: right;
+    font-family: lato; sans serif;
+    background-color: #333333;
+    width:95%;
+    height: 300px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0px 0px 0px 5px #ef8b24; inset;
+    border-radius: 25px;
+}
+
+#bake1 h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #ef8b24;
+    text-align: center;
+    font-size: 30px;
+}
+
+#bake1 p {
+    color: #fffef1;
+    font-size: 25px;
+    text-align: right;
+}
+
+#caramallow  {
+    width:300px;
+    height:300px;
+    resize: both;
+    margin-right: 60px;
+    float: right;
+    border: #ef8b24 solid 2px;
+    }
+    
+    #bake2 {
+        float:left;
+        font-family: lato; sans serif;
+        background-color: #333333;
+        width:95%;
+        height: 300px;
+        padding: 15px;
+        margin:10px;
+        margin-top: 20px;
+        box-shadow: 0px 0px 0px 5px #ef8b24; inset;
+        border-radius: 25px;
+    }
+    
+    #bake2 h3 {
+        font-family: 'Courier New', Courier, monospace;
+        color: #ef8b24;
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    #bake2 p {
+        color: #fffef1;
+        font-size: 25px;
+        text-align: left;
+    }
+
+    #lemon-cake  {
+        width:300px;
+        height:300px;
+        resize: both;
+        margin-left: 60px;
+        float: left;
+        border: #ef8b24 solid 2px;
+        }
+        
+        #bake3 {
+            float: right;
+            font-family: lato; sans serif;
+            background-color: #333333;
+            width:95%;
+            height: 300px;
+            padding: 15px;
+            margin: 10px;
+            margin-top: 20px;
+            box-shadow: 0px 0px 0px 5px #ef8b24; inset;
+            border-radius: 25px;
+        }
+        
+        #bake3 h3 {
+            font-family: 'Courier New', Courier, monospace;
+            color: #ef8b24;
+            text-align: center;
+            font-size: 30px;
+        }
+        
+        #bake3 p {
+            color: #fffef1;
+            font-size: 25px;
+            text-align: right;
+        }
+
+        #halcyon  {
+            width:300px;
+            height:300px;
+            resize: both;
+            margin-right: 60px;
+            float: right;
+            border: #ef8b24 solid 2px;
+            }
+            
+            #bake4 {
+                float:left;
+                font-family: lato; sans serif;
+                background-color: #333333;
+                width:95%;
+                height: 300px;
+                padding: 15px;
+                margin:10px;
+                margin-top: 20px;
+                box-shadow: 0px 0px 0px 5px #ef8b24; inset;
+                border-radius: 25px;
+            }
+            
+            #bake4 h3 {
+                font-family: 'Courier New', Courier, monospace;
+                color: #ef8b24;
+                text-align: center;
+                font-size: 30px;
+            }
+            
+            #bake4 p {
+                color: #fffef1;
+                font-size: 25px;
+                text-align: left;
+            }
+
+            #billionaires  {
+                width:300px;
+                height:300px;
+                resize: both;
+                margin-left: 60px;
+                float: left;
+                border: #ef8b24 solid 2px;
+                }
+                
+                #bake5 {
+                    float: right;
+                    font-family: lato; sans serif;
+                    background-color: #333333;
+                    width:95%;
+                    height: 300px;
+                    padding: 15px;
+                    margin: 10px;
+                    margin-top: 20px;
+                    box-shadow: 0px 0px 0px 5px #ef8b24; inset;
+                    border-radius: 25px;
+                }
+                
+                #bake5 h3 {
+                    font-family: 'Courier New', Courier, monospace;
+                    color: #ef8b24;
+                    text-align: center;
+                    font-size: 30px;
+                }
+                
+                #bake5 p {
+                    color: #fffef1;
+                    font-size: 25px;
+                    text-align: right;
+                }
+        
+                #hitmeup {
+                    width:300px;
+                    height:300px;
+                    resize: both;
+                    margin-right: 60px;
+                    float: right;
+                    border: #ef8b24 solid 2px;
+                    }
+                    
+                    #bake6 {
+                        float:left;
+                        font-family: lato; sans serif;
+                        background-color: #333333;
+                        width:95%;
+                        height: 300px;
+                        padding: 15px;
+                        margin:10px;
+                        margin-top: 20px;
+                        box-shadow: 0px 0px 0px 5px #ef8b24; inset;
+                        border-radius: 25px;
+                    }
+                    
+                    #bake6 h3 {
+                        font-family: 'Courier New', Courier, monospace;
+                        color: #ef8b24;
+                        text-align: center;
+                        font-size: 30px;
+                    }
+                    
+                    #bake6 p {
+                        color: #fffef1;
+                        font-size: 25px;
+                        text-align: left;
+                    }
+                
+
 .contact-section {
     clear: left;
     background: url(../images/contact-us-image.jpeg);
     background-size:cover;
     height: 1000px;
     width: 100%;
-    margin-top: -110px;
+    margin-top: -130px;
 }
 .contact-us-form {
     margin:150px 10% 0 0;
@@ -183,7 +391,7 @@ margin-top: -50px;
     font-weight: bolder;
     text-align: center;
     font-size: 20px;
-    color: #36454F;
+    color:#333333;
 }
 
 #social-media a  {
@@ -210,4 +418,8 @@ margin-top: -50px;
     right: 0;
     left: 0;
     border: none;
+}
+
+footer {
+height: 20px;
 }
