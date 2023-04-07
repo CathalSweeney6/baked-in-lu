@@ -1,0 +1,12 @@
+height: 600px;
+    width: 90%;
+
+    @media screen and (max-width: 955px) and (min-width:767px) {
+    #logo {
+        margin: 0 auto;
+    }
+
+    #about-us-box {
+        height:fit-content;
+    }
+}

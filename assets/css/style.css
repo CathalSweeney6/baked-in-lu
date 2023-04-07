@@ -31,6 +31,19 @@ margin-left:80px;
     margin-right: 60px;
     margin-top: 60px;
 }
+
+#tagline-contact {
+    float: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:  50px;
+    text-align: center;
+    font-weight: bolder;
+    letter-spacing: 10px;
+    color: #d39b42;
+    margin-right: 60px;
+    margin-top: 60px;
+    margin-bottom: -170px;
+}
   
 .topnav {
     background-color:#fffef1;
@@ -430,3 +443,304 @@ border: #ef8b24 solid 2px;
 footer {
 height: 20px;
 }
+
+@media screen and (max-width: 955px) {
+
+    .topnav {
+        margin: 0;
+    }
+
+    #logo {
+        max-width: 400px;
+        max-height: 400px;
+        margin: 0px;
+        padding-left: 220px;
+        }
+        
+
+        #hero-image {
+            height: 1000px;
+        }
+
+        #tagline {
+            font-size: 40px;
+            margin-right: 80px;
+            float: none;
+            clear: left;
+            align-items: center;
+        }
+
+        #tagline-contact {
+            font-size: 40px;
+            margin-left: 80px;
+            float: none;
+            clear: left;
+            align-items: center;
+        }
+
+
+    #about-us-box {
+   width: 65%;
+   margin: 0;
+   padding: 30px;
+   }
+
+   #about p {
+    margin-left:40px;
+   }
+
+   #bake1 {
+    float: none;
+    margin-right: 5px;
+   }
+   #bake2 {
+    float: none;
+    margin-left: 5px;
+   }
+   #bake3 {
+    float: none;
+    margin-right: 5px;
+   }
+   #bake4 {
+    float: none;
+    margin-left: 5px;
+   }
+   #bake5 {
+    float: none;
+    margin-right: 5px;
+   }
+   #bake6 {
+    float: none;
+    margin-left: 5px;
+   }
+
+   .contact-section {
+    margin-top: 200px;
+}
+
+    .contact-us-form {
+    margin-left:-80px;
+    }
+]
+@media screen and (max-width: 768px)
+
+.topnav {
+    margin: 0;
+}
+
+#logo {
+    max-width: 400px;
+    max-height: 400px;
+    margin: 0px;
+    padding-left: 120px;
+    }
+    
+
+    #hero-image {
+        height: 1000px;
+    }
+
+    #tagline {
+        font-size: 40px;
+        margin-right: 80px;
+        float: none;
+        clear: left;
+        align-items: center;
+    }
+
+    #tagline-contact {
+        font-size: 40px;
+        margin-left: 80px;
+        float: none;
+        clear: left;
+        align-items: center;
+    }
+
+
+#about-us-box {
+width: 65%;
+margin: 0;
+padding: 30px;
+}
+
+#about p {
+margin-left:40px;
+}
+
+#bake1 {
+float: none;
+margin-left: 5px;
+}
+#bake2 {
+float: none;
+margin-right: 5px;
+}
+#bake3 {
+float: none;
+margin-left: 5px;
+}
+#bake4 {
+float: none;
+margin-right: 5px;
+}
+#bake5 {
+float: none;
+margin-left: 5px;
+}
+#bake6 {
+float: none;
+margin-right: 5px;
+}
+
+.contact-section {
+margin-top: 200px;
+}
+
+.contact-us-form {
+margin-left:-80px;
+}
+]
+
+@media screen and (max-width: 706px)
+.topnav {
+    margin: 0;
+}
+
+#logo {
+    max-width: 400px;
+    max-height: 400px;
+    margin: 0px;
+    padding-left: 100px;
+    }
+    
+
+    #hero-image {
+        height: 1000px;
+    }
+
+    #tagline {
+        font-size: 40px;
+        margin-right: 80px;
+        float: none;
+        clear: left;
+        align-items: center;
+    }
+
+    #tagline-contact {
+        font-size: 40px;
+        margin-left: 80px;
+        float: none;
+        clear: left;
+        align-items: center;
+    }
+
+
+#about-us-box {
+width: 65%;
+margin: 0;
+padding: 30px;
+}
+
+#about p {
+margin-left:40px;
+}
+
+#bake1 {
+float: none;
+margin-left: 5px;
+}
+#bake2 {
+float: none;
+margin-right: 5px;
+}
+#bake3 {
+float: none;
+margin-left: 5px;
+}
+#bake4 {
+float: none;
+margin-right: 5px;
+}
+#bake5 {
+float: none;
+margin-left: 5px;
+}
+#bake6 {
+float: none;
+margin-right: 5px;
+}
+
+.contact-section {
+margin-top: 200px;
+}
+
+.contact-us-form {
+margin-left:-80px;
+}
+]
+
+@media screen and (max-width: 425px) and (min-width: 320px)
+
+    .topnav {
+      align-items: center;
+      margin-right: 5px;
+    }
+
+    #logo {
+        width: 300px;
+        height: 300px;
+        resize: both;
+        margin-top: 50px;
+        margin-left:105px;
+        }
+
+        #tagline {
+            margin-left: 100px;
+        }
+     
+        #hero-image {
+            height: 500px;
+            margin-top: 30px;
+            
+        }
+
+    #about-us-box {
+   height:450px;
+   width: 90%;
+   margin-left: 5px;
+   margin-top: 100px;
+   }
+
+   #about p {
+    margin-left:40px;
+    font-size: 30px;
+   }
+
+   #bake1 {
+    margin-right: 5px;
+   }
+   #bake2 {
+    margin-left: 5px;
+   }
+   #bake3 {
+    margin-right: 5px;
+   }
+   #bake4 {
+    margin-left: 5px;
+   }
+   #bake5 {
+    margin-right: 5px;
+   }
+   #bake6 {
+    margin-left: 5px;
+   }
+
+   .contact-section {
+    margin-top: 220px;
+}
+
+    .contact-us-form {
+    margin-left:-80px;
+    }
+]
+
