@@ -11,13 +11,13 @@ header a {
 }
 
 #logo {
-max-width: 200px;
-max-height: 200px;
+max-width: 300px;
+max-height: 300px;
 resize: both;
 border-left: 30px;
 border-top: 10px;
 margin-top:10px;
-margin-left:80px;
+margin-left:60px;
 }
 
 #tagline {
@@ -126,8 +126,8 @@ margin-top: -50px;
 }
 
 #strawberry  {
-width:300px;
-height:300px;
+width:200px;
+height:200px;
 resize: both;
 margin-left: 60px;
 float: left;
@@ -157,11 +157,12 @@ border: #ef8b24 solid 2px;
     color: #fffef1;
     font-size: 25px;
     text-align: right;
+    margin-right: 10px;
 }
 
 #caramallow  {
-    width:300px;
-    height:300px;
+    width:200px;
+    height:200px;
     resize: both;
     margin-right: 60px;
     float: right;
@@ -192,11 +193,12 @@ border: #ef8b24 solid 2px;
         color: #fffef1;
         font-size: 25px;
         text-align: left;
+        margin-left: 10px;
     }
 
     #lemon-cake  {
-        width:300px;
-        height:300px;
+        width:200px;
+        height:200px;
         resize: both;
         margin-left: 60px;
         float: left;
@@ -227,11 +229,12 @@ border: #ef8b24 solid 2px;
             color: #fffef1;
             font-size: 25px;
             text-align: right;
+            margin-right: 10px;
         }
 
         #halcyon  {
-            width:300px;
-            height:300px;
+            width:200px;
+            height:200px;
             resize: both;
             margin-right: 60px;
             float: right;
@@ -262,11 +265,12 @@ border: #ef8b24 solid 2px;
                 color: #fffef1;
                 font-size: 25px;
                 text-align: left;
+                margin-left: 10px;
             }
 
             #billionaires  {
-                width:300px;
-                height:300px;
+                width:200px;
+                height:200px;
                 resize: both;
                 margin-left: 60px;
                 float: left;
@@ -297,11 +301,12 @@ border: #ef8b24 solid 2px;
                     color: #fffef1;
                     font-size: 25px;
                     text-align: right;
+                    margin-right: 10px;
                 }
         
                 #hitmeup {
-                    width:300px;
-                    height:300px;
+                    width:200px;
+                    height:200px;
                     resize: both;
                     margin-right: 60px;
                     float: right;
@@ -332,6 +337,7 @@ border: #ef8b24 solid 2px;
                         color: #fffef1;
                         font-size: 25px;
                         text-align: left;
+                        margin-left: 10px;
                     }
                 
 
@@ -491,27 +497,69 @@ height: 20px;
 
    #bake1 {
     float: none;
-    margin-right: 5px;
+    height: fit-content;
+    margin-left:5px;
+    align-items: center;
    }
    #bake2 {
     float: none;
-    margin-left: 10px;
+    height: fit-content;
+    margin-left:5px;
+    align-items: center;
    }
    #bake3 {
     float: none;
-    margin-right: 10px;
+    height: fit-content;
+    margin-left:5px;
+    align-items: center;
    }
    #bake4 {
     float: none;
-    margin-left: 10px;
+    height: fit-content;
+    margin-left:5px;
+    align-items: center;
    }
    #bake5 {
     float: none;
-    margin-right: 10px;
+    height: fit-content;
+    margin-left:5px;
+    align-items: center;
    }
    #bake6 {
     float: none;
-    margin-left: 10px;
+    height: fit-content;
+    margin-left:5px;
+    align-items: center;
+   }
+
+   #strawberry {
+    margin-top: 3px;
+    margin-right: 5px;
+   }
+
+   #caramallow {
+    margin-top: 3px;
+    margin-right: 50px;
+   }
+
+   #lemon-cake {
+    margin-top: 20px;
+    margin-left: 50px;
+   }
+
+   #halcyon {
+    margin-top: 3px;
+    margin-right: 50px;
+   }
+
+ #billionaires {
+    margin-top: 3px;
+    margin-right: 20px;
+   }
+
+   #hitmeup {
+    margin-top: 15px;
+    margin-right: 50px;
    }
 
    .contact-section {
@@ -551,30 +599,6 @@ height: 20px;
     margin-left:40px;
    }
 
-   #bake1 {
-    float: none;
-    margin-right: 5px;
-   }
-   #bake2 {
-    float: none;
-    margin-left: 5px;
-   }
-   #bake3 {
-    float: none;
-    margin-right: 5px;
-   }
-   #bake4 {
-    float: none;
-    margin-left: 5px;
-   }
-   #bake5 {
-    float: none;
-    margin-right: 5px;
-   }
-   #bake6 {
-    float: none;
-    margin-left: 5px;
-   }
 
    .contact-section {
     margin-top: 200px;
@@ -584,31 +608,6 @@ height: 20px;
     margin-right: 80px;
     }
 }
-
-#bake1 {
-    float: none;
-    margin-left: 3px;
-   }
-   #bake2 {
-    float: none;
-    margin-left: 3px;
-   }
-   #bake3 {
-    float: none;
-    margin-left: 3px;
-   }
-   #bake4 {
-    float: none;
-    margin-left: 3px;
-   }
-   #bake5 {
-    float: none;
-    margin-left: 3px;
-   }
-   #bake6 {
-    float: none;
-    margin-left: 3px;
-   }
 
 @media screen and (max-width: 770px) {
 
@@ -660,6 +659,7 @@ height: 20px;
     }
     
         .contact-us-form {
+        margin-top: 20px;
         margin-right: 80px;
         }
 }
@@ -690,18 +690,62 @@ height: 20px;
         margin-left: 35px;
         align-items: center;
     }
-}
+
+    #bake1 {
+        margin-left: 1px;
+    }
+
+    #bake2 {
+        margin-left: 1px;
+    }
+
+    #bake3 {
+        margin-left: 1px;
+    }
+    
+    #bake4 {
+        margin-left: 1px;
+    }
+
+    #bake5 {
+        margin-left: 1px;
+    }
+
+    #bake6 {
+        margin-left: 1px;
+    }
+
+    .contact-section {
+        margin-top: 100px;
+        padding-top: 10px;
+        width: 100%;
+    }
+    
+        .contact-us-form {
+        margin-top: 300px;
+        margin-right: 60px;
+        position: absolute;
+        }
+
 @media screen and (max-width: 590px) {
 
     #about-us-box {
         margin-left: 15px;
     }
+
+    .contact-us-form {
+        margin-right: 20px;
+        }
 }
 @media screen and (max-width: 490px) {
 
     #about-us-box {
         margin-left: 15px;
     }
+
+    .contact-us-form {
+        margin-right: 45px;
+        }
 } 
 
 @media screen and (max-width: 425px) {
@@ -709,10 +753,63 @@ height: 20px;
     #about-us-box {
         margin-left: 5px;
     }
+
+       #bake1 {
+        width: 80%;
+        margin-left: 20px;
+    }
+
+    #caramallow {
+        margin-right: 60px;
+    }
+
+    #bake2 {
+        width: 80%;
+        margin-left: 20px;
+    }
+
+    #lemon-cake {
+        margin-top: 5px;
+        margin-left: 60px;
+    }
+
+    #bake3 {
+        width: 80%;
+        margin-left: 20px;
+    }
+
+    #halcyon {
+            margin-right: 60px;
+        }
+    
+
+    #bake4 {
+        width: 80%;
+        margin-left: 20px;
+    }
+
+    #bake5 {
+        width: 80%;
+        margin-left: 20px;
+    }
+
+    #bake6 {
+        width: 80%;
+        margin-left: 20px;
+    }
+
+    #hitmeup {
+        margin-top: 5px;
+        margin-right: 60px;
+    }
+
+    .contact-us-form {
+        margin-right: 100px;
+        }
 } 
 
 
-@media screen and (max-width: 375px) and (min-width:320px) {
+@media screen and (max-width: 375px) {
 
     #tagline {
         font-size: 15px;
@@ -725,10 +822,34 @@ height: 20px;
         width: 75%;
         margin-left: 10px;
     }
+
+    #strawberry {
+        margin-left: 40px;
+       }
+    
+       #caramallow {
+        margin-right: 40px;
+       }
+    
+       #lemon-cake {
+        margin-left: 40px;
+       }
+    
+       #halcyon {
+        margin-right: 40px;
+       }
+    
+     #billionaires {
+        margin-left: 40px;
+       }
+    
+       #hitmeup {
+        margin-right: 40px;
+       }    
 } 
 
 
-@media screen and (max-width: 331px) { 
+@media screen and (max-width: 331px) {
 
     #tagline {
         font-size: 12px;
@@ -746,3 +867,120 @@ height: 20px;
 #about-us-box p {
     font-size: 15px;
 }
+
+#bake1 {
+    margin-left: 15px;
+}
+
+#strawberry {
+    margin-left: 25px;
+}
+
+#bake2 {
+    width: 80%;
+    margin-left: 20px;
+}
+
+#caramallow {
+    margin-right: 25px;
+}
+
+#bake3 {
+    width: 80%;
+    margin-left: 20px;
+}
+
+#lemon-cake {
+    margin-left: 25px;
+}
+
+#bake4 {
+    width: 80%;
+    margin-left: 20px;
+}
+
+#halcyon {
+    margin-right: 25px;
+}
+
+#bake5 {
+    width: 80%;
+    margin-left: 20px;
+}
+
+#billionaires {
+    margin-left: 25px;
+}
+
+#bake6 {
+    width: 80%;
+    margin-left: 20px;
+}
+
+#hitmeup {
+    margin-right: 25px;
+}
+}
+
+.contact-us-form {
+    margin-right: 30px;
+    }
+
+@media screen and (max-width:320px) { 
+    #bake1 {
+        margin-left: 15px;
+    }
+    
+    #strawberry {
+        margin-left: 20px;
+    }
+    
+    #bake2 {
+        width: 80%;
+        margin-left: 20px;
+    }
+    
+    #caramallow {
+        margin-right: 20px;
+    }
+    
+    #bake3 {
+        width: 80%;
+        margin-left: 20px;
+    }
+    
+    #lemon-cake {
+        margin-left: 20px;
+    }
+    
+    #bake4 {
+        width: 80%;
+        margin-left: 20px;
+    }
+    
+    #halcyon {
+        margin-right: 20px;
+    }
+    
+    #bake5 {
+        width: 80%;
+        margin-left: 20px;
+    }
+    
+    #billionaires {
+        margin-left: 20px;
+    }
+    
+    #bake6 {
+        width: 80%;
+        margin-left: 20px;
+    }
+    
+    #hitmeup {
+        margin-right: 20px;
+    }
+}
+
+.contact-us-form {
+    margin-right: 105px;
+    }
