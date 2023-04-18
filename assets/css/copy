@@ -1,0 +1,274 @@
+@media screen and (max-width: 386px) and (min-width:376px) {
+
+    #tagline {
+        font-size: 15px;
+    }
+
+    #about {
+        margin: 0 auto;
+        width: 90%;
+        padding-right: 5px;
+        position:static;
+    }
+
+    #strawberry {
+        margin-left: 60px;
+    }
+
+    #caramallow {
+        margin-right: 60px;
+    }
+
+    #lemon-cake {
+        margin-left: 50px;
+    }
+
+    #halcyon {
+        margin-right: 60px;
+    }
+
+    #billionaires {
+        margin-left: 50px;
+    }
+
+    #hitmeup {
+        width: 150px;
+        height: 150px;
+        margin-right: 10px;
+    }
+
+    }
+    
+
+    @media screen and (max-width: 376px) and (min-width:351px) {
+
+        #tagline {
+            font-size: 20px;
+        }
+
+        #hero-image {
+            height: 500px;
+            width: 100%;
+        }
+    }
+
+@media screen and (max-width: 375px) {
+
+    #tagline {
+        font-size: 12px;
+    }
+
+    #about {
+        margin: 0 auto;
+        width: 90%;
+        position:static;
+    }
+
+    #about-us-box p {
+        font-size: 20px;
+    }
+
+    #strawberry {
+        margin-left: 50px;
+       }
+    
+       #caramallow {
+        margin-right: 50px;
+       }
+    
+       #lemon-cake {
+        margin-left: 50px;
+       }
+    
+       #halcyon {
+        margin-right: 50px;
+       }
+    
+     #billionaires {
+        margin-left: 50px;
+       }
+    
+       #hitmeup {
+        margin-right: 50px;
+       }    
+
+       .contact-section {
+        margin-top: 15px;
+    }
+} 
+
+@media screen and (max-width:358x) and (min-width:320px) {
+
+#tagline {
+    font-size: 12px;
+    margin-left: 10px;
+}
+}
+
+@media screen and (max-width: 351px) and (min-width:332px) {
+
+    #about {
+        margin: 0 auto;
+        width: 80%;
+        padding-right: 15px;
+        position:static;
+    }
+    }
+
+@media screen and (max-width: 331px) {
+
+    #hero-image {
+        height: 600px;
+        width: 80%;
+    }
+
+    #about {
+        margin: 0 auto;
+        width: 80%;
+        padding-right: 5px;
+        position:static;
+    }
+
+#about-us-box p {
+    font-size: 18px;
+}
+
+#bake1 {
+    margin-left: 15px;
+}
+
+#strawberry {
+    margin-left: 25px;
+}
+
+#bake2 {
+    width: 80%;
+    margin-left: 20px;
+}
+
+#caramallow {
+    margin-right: 25px;
+}
+
+#bake3 {
+    width: 80%;
+    margin-left: 20px;
+}
+
+#lemon-cake {
+    margin-left: 25px;
+}
+
+#bake4 {
+    width: 80%;
+    margin-left: 20px;
+}
+
+#halcyon {
+    margin-right: 25px;
+}
+
+#bake5 {
+    width: 80%;
+    margin-left: 20px;
+}
+
+#billionaires {
+    margin-left: 25px;
+}
+
+#bake6 {
+    width: 80%;
+    margin-left: 20px;
+}
+
+#hitmeup {
+    margin-right: 25px;
+}
+}
+
+
+@media screen and (max-width:320px) and (min-width:250px) { 
+
+    .topnav {
+        margin: 0 auto;
+    }
+
+    #tagline {
+        font-size: 12px;
+    }
+
+    #about {
+        margin: 0 auto;
+        width: 80%;
+        padding-right: 5px;
+        position:static;
+    }
+
+
+    #about p {
+    font-size: 18px;    
+}
+
+    #bake1 {
+        margin-left: 15px;
+    }
+    
+    #strawberry {
+        margin-left: 30px;
+    }
+    
+    #bake2 {
+        width: 80%;
+        margin-left: 20px;
+    }
+    
+    #caramallow {
+        margin-right: 30px;
+    }
+    
+    #bake3 {
+        width: 80%;
+        margin-left: 20px;
+    }
+    
+    #lemon-cake {
+        margin-left: 30px;
+    }
+    
+    #bake4 {
+        width: 80%;
+        margin-left: 20px;
+    }
+    
+    #halcyon {
+        margin-top: 20px;
+        margin-right: 30px;
+    }
+    
+    #bake5 {
+        width: 80%;
+        margin-left: 20px;
+    }
+    
+    #billionaires {
+        margin-left: 30px;
+    }
+    
+    #bake6 {
+        width: 80%;
+        margin-left: 20px;
+    }
+    
+    #hitmeup {
+        margin-right: 30px;
+    }
+        .contact-section {
+            margin-top: 20px;
+        }
+
+        .contact-us-form {
+        margin: 0 auto; 
+    } 
+}
+

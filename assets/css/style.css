@@ -1,6 +1,5 @@
 body {
     font-family: Lato, sans-serif;
-    font-weight: 300px;
     color: #333333;
     background-color: #fffef1;
 }
@@ -23,48 +22,35 @@ margin-left:60px;
 #tagline {
     float: right;
     font-family: 'Courier New', Courier, monospace;
-    font-size:  50px;
+    font-size:  20px;
     text-align: center;
     font-weight: bolder;
     letter-spacing: 10px;
     color: #d39b42;
     margin-right: 60px;
     margin-top: 60px;
-}
-
-#tagline-contact {
-    float: right;
-    font-family: 'Courier New', Courier, monospace;
-    font-size:  50px;
-    text-align: center;
-    font-weight: bolder;
-    letter-spacing: 10px;
-    color: #d39b42;
-    margin-right: 60px;
-    margin-top: 60px;
-    margin-bottom: -170px;
 }
   
 .topnav {
     background-color:#fffef1;
-    margin: auto;
-    margin-right: 60px;
-    position: relative;
+    margin: 0;
 }
 
   .topnav #myLinks {
-    display:none;
+    display: none;
   }
   
   .topnav a {
+    display: block;
+    margin: 0 6px 6px 0;
+    border:solid #ef8b24;
     color:#333333;
     padding: 6px 6px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
     text-decoration: none;
     font-size: 30px;
-    text-align: center;
-    display:block;
+    text-align:left;
   }
   
   .topnav a.icon {
@@ -73,38 +59,35 @@ margin-left:60px;
     position: absolute;
     right: 0;
     top: 0;
+    border: none;
   }
   
   .topnav a:hover {
     color: #ef8b24;
+    border: solid #ef8b24;
   }
 
 #hero-image {
-height: 50%;
-width: 100%;
-background:url(../images/hero-image-bakes.jpeg), no-repeat, center, center;
-background-size: cover;
+width: 80%;
+margin: 0 auto;
 overflow: hidden;
-margin-top: 30px;
-margin-bottom: 50px;
+}
+
+#about {
+    float: inherit;
+    margin-left: 140px;
+    text-align: center;
 }
 
 #about-us-box {
     background-color: #333333;
     color: #fffef1;
-    width:95%;
-    height: 600px;
-    padding: 15px;
     margin-left: 10px;
+    padding: 30px;
+    width: 80%%;
     box-shadow: 0px 0px 0px 5px #ef8b24; inset;
     border-radius: 25px;
-}
-
-#about {
-    float: inherit;
-    margin: 0;
-    text-align: center;
-}
+   }
 
 #about h2{
     font-family: 'Courier New', Courier, monospace;
@@ -115,8 +98,7 @@ margin-bottom: 50px;
 
 #about p {
     text-align: left;
-    margin-left: 70px;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 #our-bakes h2 {
@@ -127,23 +109,23 @@ margin-bottom: 50px;
 }
 
 #strawberry  {
-width:200px;
-height:200px;
+width:180px;
+height:180px;
 resize: both;
-margin-left: 60px;
+margin-left: 50px;
 float: left;
 border: #ef8b24 solid 2px;
 }
 
 #bake1 {
     float: right;
-    font-family: lato; sans serif;
+    font-family: lato;
     background-color: #333333;
-    width:95%;
+    width:90%;
     height: 300px;
     padding: 15px;
     margin: 10px;
-    box-shadow: 0px 0px 0px 5px #ef8b24; inset;
+    box-shadow: 0px 0px 0px 5px #ef8b24 inset;
     border-radius: 25px;
 }
 
@@ -162,24 +144,24 @@ border: #ef8b24 solid 2px;
 }
 
 #caramallow  {
-    width:200px;
-    height:200px;
+    width:180px;
+    height:180px;
     resize: both;
-    margin-right: 60px;
+    margin-left: 20px;
     float: right;
     border: #ef8b24 solid 2px;
     }
     
     #bake2 {
         float:left;
-        font-family: lato; sans serif;
+        font-family: lato;
         background-color: #333333;
-        width:95%;
+        width:90%;
         height: 300px;
         padding: 15px;
         margin:10px;
         margin-top: 20px;
-        box-shadow: 0px 0px 0px 5px #ef8b24; inset;
+        box-shadow: 0px 0px 0px 5px #ef8b24 inset;
         border-radius: 25px;
     }
     
@@ -198,24 +180,24 @@ border: #ef8b24 solid 2px;
     }
 
     #lemon-cake  {
-        width:200px;
-        height:200px;
+        width:180px;
+        height:180px;
         resize: both;
-        margin-left: 60px;
+        margin-left: 0px;
         float: left;
         border: #ef8b24 solid 2px;
         }
         
         #bake3 {
             float: right;
-            font-family: lato; sans serif;
+            font-family: lato;
             background-color: #333333;
-            width:95%;
+            width:90%;
             height: 300px;
             padding: 15px;
             margin: 10px;
             margin-top: 20px;
-            box-shadow: 0px 0px 0px 5px #ef8b24; inset;
+            box-shadow: 0px 0px 0px 5px #ef8b24 inset;
             border-radius: 25px;
         }
         
@@ -234,8 +216,8 @@ border: #ef8b24 solid 2px;
         }
 
         #halcyon  {
-            width:200px;
-            height:200px;
+            width:180px;
+            height:180px;
             resize: both;
             margin-right: 60px;
             float: right;
@@ -244,14 +226,14 @@ border: #ef8b24 solid 2px;
             
             #bake4 {
                 float:left;
-                font-family: lato; sans serif;
+                font-family: lato;
                 background-color: #333333;
-                width:95%;
+                width:90%;
                 height: 300px;
                 padding: 15px;
                 margin:10px;
                 margin-top: 20px;
-                box-shadow: 0px 0px 0px 5px #ef8b24; inset;
+                box-shadow: 0px 0px 0px 5px #ef8b24 inset;
                 border-radius: 25px;
             }
             
@@ -270,24 +252,24 @@ border: #ef8b24 solid 2px;
             }
 
             #billionaires  {
-                width:200px;
-                height:200px;
+                width:180px;
+                height:180px;
                 resize: both;
-                margin-left: 60px;
+                margin-left: 55px;
                 float: left;
                 border: #ef8b24 solid 2px;
                 }
                 
                 #bake5 {
                     float: right;
-                    font-family: lato; sans serif;
+                    font-family: lato;
                     background-color: #333333;
-                    width:95%;
+                    width:90%;
                     height: 300px;
                     padding: 15px;
                     margin: 10px;
                     margin-top: 20px;
-                    box-shadow: 0px 0px 0px 5px #ef8b24; inset;
+                    box-shadow: 0px 0px 0px 5px #ef8b24 inset;
                     border-radius: 25px;
                 }
                 
@@ -306,8 +288,8 @@ border: #ef8b24 solid 2px;
                 }
         
                 #hitmeup {
-                    width:200px;
-                    height:200px;
+                    width:180px;
+                    height:180px;
                     resize: both;
                     margin-right: 60px;
                     float: right;
@@ -316,14 +298,14 @@ border: #ef8b24 solid 2px;
                     
                     #bake6 {
                         float:left;
-                        font-family: lato; sans serif;
+                        font-family: lato;
                         background-color: #333333;
-                        width:95%;
+                        width:90%;
                         height: 300px;
                         padding: 15px;
                         margin:10px;
                         margin-top: 20px;
-                        box-shadow: 0px 0px 0px 5px #ef8b24; inset;
+                        box-shadow: 0px 0px 0px 5px #ef8b24 inset;
                         border-radius: 25px;
                     }
                     
@@ -346,9 +328,8 @@ border: #ef8b24 solid 2px;
     clear: left;
     background: url(../images/contact-us-image.jpeg);
     background-size:cover;
-    height: 1000px;
+    height: 650px
     width: 100%;
-    margin-top: -130px;
 }
 
 .contact-us { 
@@ -359,13 +340,11 @@ border: #ef8b24 solid 2px;
 }
 .contact-us-form {
     margin:150px 10% 0 0;
+    position: relative;
     color:#fff;
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 400px;
     position: relative;
-    margin-left: -200px;
-    left:30%;
-    top: 140px;
     padding:30px;
     border-radius: 25px;
 }
@@ -454,7 +433,7 @@ height: 20px;
 @media screen and (max-width: 1024px) {
 
     .topnav {
-        margin-right: 10px;
+        margin:0 auto;
     }
 
     #logo {
@@ -464,63 +443,67 @@ height: 20px;
         }
 
         #tagline {
-            font-size: 30px;
+            font-size: 25px;
             margin-left: 0;
             padding-left: 30px;
             padding-top: 10px;
             align-items: center;
         }
 
-        #tagline-contact {
-            font-size: 30px;
-            margin-left: 0;
-            padding-left: 30px;
-            padding-top: 10px;
-            align-items: center;
-        }
+        #hero-image {
+            margin: 0 auto;
+            width: 85%;
+            height: 600px;
+            transform: scale(100%, 80%);
+    }
 
-    #about-us-box {
-   width: 85%;
-   height: fit-content;
-   margin-left: 40px;
-   padding: 30px;
-   }
+    #about {
+        margin: 0 auto;
+        width: 80%;
+        position:static;
+    }
 
    #about p {
-    margin-left:40px;
+    margin-left: 10px;
    }
 
    #bake1 {
+    width: 95%;
     float: none;
     height: fit-content;
     margin-left:5px;
     align-items: center;
    }
    #bake2 {
+    width: 95%;
     float: none;
     height: fit-content;
     margin-left:5px;
     align-items: center;
    }
    #bake3 {
+    width: 95%;
     float: none;
     height: fit-content;
     margin-left:5px;
     align-items: center;
    }
    #bake4 {
+    width: 95%;
     float: none;
     height: fit-content;
     margin-left:5px;
     align-items: center;
    }
    #bake5 {
+    width: 95%;
     float: none;
     height: fit-content;
     margin-left:5px;
     align-items: center;
    }
    #bake6 {
+    width: 95%;
     float: none;
     height: fit-content;
     margin-left:5px;
@@ -528,47 +511,47 @@ height: 20px;
    }
 
    #strawberry {
-    margin-top: 3px;
+    margin-top: 10px;
     margin-right: 5px;
    }
 
    #caramallow {
-    margin-top: 3px;
+    margin-top: 10px;
     margin-right: 50px;
    }
 
    #lemon-cake {
-    margin-top: 20px;
+    margin-top: 30px;
     margin-left: 50px;
    }
 
    #halcyon {
-    margin-top: 3px;
+    margin-top: 10px;
     margin-right: 50px;
    }
 
  #billionaires {
-    margin-top: 3px;
+    margin-top: 10px;
     margin-right: 20px;
    }
 
    #hitmeup {
-    margin-top: 15px;
+    margin-top: 20px;
     margin-right: 50px;
    }
 
    .contact-section {
-    margin-top: 200px;
+    margin-top: 20px;
 }
 
     .contact-us-form {
-    margin-left:-80px;
+        margin: 0 auto;
     }
-]
+}
 
 @media screen and (max-width: 835px) {
-
-        #tagline {
+    
+    #tagline {
             font-size: 20px;
             margin-left: 0;
             padding-left: 30px;
@@ -576,71 +559,107 @@ height: 20px;
             align-items: center;
         }
 
-        #tagline-contact {
-            font-size: 20px;
-            margin-left: 0;
-            padding-left: 30px;
-            padding-top: 20px;
-            align-items: center;
+        #hero-image {
+        transform: scale(hidden);
+        width: 90%;
         }
 
-    #about-us-box {
-   width: 75%;
-   margin-left: 10px;
-   padding: 30px;
-   }
+        #about {
+                margin: 0 auto;
+                width: 70%;
+                position:static;
+            }
 
-   #about p {
-    margin-left:40px;
-   }
+#lemon-cake {
+    margin-top: 15px;
+}
 
+ #bake3 p {
+    font-size: 20px;
+ }
 
+ #halcyon {
+    margin-top: 30px;
+ }
+
+ #billionaires {
+    margin-top: 30px;
+ }
    .contact-section {
-    margin-top: 200px;
+    margin-top: 10px;
 }
 
     .contact-us-form {
-    margin-right: 80px;
+    margin: 0 auto;
     }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 771px) {
 
-    #about-us-box {
-        width: 85%;
-        margin-left: 30px;
+    #hero-image {
+        width: 100%;
+        margin-top: 20px ;
+    }
+
+
+    #about p {
+        font-size: 20px;
+    }
+
+    #strawberry {
+        margin-top: 40px;
+    }
+
+    #caramallow {
+        margin-top: 20px;
+    }
+
+    #lemon-cake {
+        margin-top: 40px;
+    }
+
+    #halcyon {
+        margin-top: 50px;
+    }
+
+    #billionaires {
+        margin-top: 40px;
+    }
+
+    #hitmeup {
+        margin-top: 40px;
     }
 }
 
 @media screen and (max-width: 768px) {
 
     .topnav {
-        margin: 0;
+        margin-right:0;
     }
 
     #logo {
         margin: 0;
     }
-        
-    #about-us-box {
-        width: 85%
-        margin-left:30px;
+
+    #hero-image {
+    width: 95%;
+    height: 600px;
     }
 
-    #about-us-box p {
+    #about {
+        margin: 0 auto;
+        width: 70%;
+        position:static;
+    }
+        
+
+    #about p {
         margin-left: 10px;
+        font-size: 20px;
     }
 
     #tagline {
-        font-size: 20px;
-        margin-left: 0;
-        padding-left: 30px;
-        padding-top: 20px;
-        align-items: center;
-    }
-
-    #tagline-contact {
-        font-size: 20px;
+        font-size: 18px;
         margin-left: 0;
         padding-left: 30px;
         padding-top: 20px;
@@ -648,14 +667,13 @@ height: 20px;
     }
 
     .contact-section {
-        margin-top: 100px;
+        margin-top: 30px;
         padding-top: 10px;
     }
-    
-        .contact-us-form {
-        margin-top: 20px;
-        margin-right: 80px;
-        }
+
+    .contact-us-form {
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width: 696px) { 
@@ -673,17 +691,12 @@ height: 20px;
         align-items: center; 
     }
 
-    #tagline-contact {
-        margin: 0;
-        float: none;
-        align-items: center;
+    #about {
+        margin: 0 auto;
+        width: 65%;
+        position:static;
     }
 
-    #about-us-box {
-        width: 80%;
-        margin-left: 35px;
-        align-items: center;
-    }
 
     #bake1 {
         margin-left: 1px;
@@ -696,6 +709,11 @@ height: 20px;
     #bake3 {
         margin-left: 1px;
     }
+
+    #bake3 p {
+        font-size: 18px;
+    }
+
     
     #bake4 {
         margin-left: 1px;
@@ -708,44 +726,190 @@ height: 20px;
     #bake6 {
         margin-left: 1px;
     }
+ }
+ @media screen and (max-width: 600px) and (min-width:500px) {
 
-    .contact-section {
-        margin-top: 100px;
-        padding-top: 10px;
-        width: 100%;
+    #bake1,   #bake2,   #bake3,   #bake4,   #bake5,   #bake6 {
+        width: 80%;
+        margin-left: 40px;
     }
-    
-        .contact-us-form {
-        margin-top: 300px;
-        margin-right: 60px;
-        position: absolute;
-        }
 
+    #bake5 h3 {
+        font-size: 20px;
+    }
+
+    }
+ 
 @media screen and (max-width: 590px) {
 
-    #about-us-box {
-        margin-left: 15px;
+
+    #about {
+        margin: 0 auto;
+        width: 60%;
+        position:static;
+    }
+    #about p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 562px) and (min-width:500px) {
+
+    #strawberry {
+        margin-left: 120px;
     }
 
-    .contact-us-form {
-        margin-right: 20px;
-        }
+    #caramallow {
+        margin-right: 120px;
+    }
+
+@media screen and (max-width: 556px) {
+
+    #our-bakes h2 {
+        font-size: 50px;
+    }
 }
+
+@media screen and (max-width: 531px) and (min-width:491px) {
+
+#about h2 {
+    font-size: 30px;
+}
+}
+
+@media screen and (max-width: 511px) and (min-width:500px) {
+
+    #hitmeup {
+    width: 120px;
+    height: 120px;
+    }
+
+    #bake6 h3 {
+        font-size: 16px;
+    }
+    }
+}
+
 @media screen and (max-width: 490px) {
 
-    #about-us-box {
-        margin-left: 15px;
+    .topnav {
+        margin-right: 0;
+    }
+
+    #hero-image {
+        margin-top: 20px;
+    }
+
+    #about {
+        margin: 0 auto;
+        width: 70%;
+        position:static;
     }
 
     .contact-us-form {
         margin-right: 45px;
         }
+
+        #tagline {
+            margin-right: 10px;
+        }
+        
+        .contact-section {
+            margin-left: 1px;
+        }
+
+        .contact-us-form {
+            margin: 0 auto;
+        }
 } 
 
+@media screen and (max-width: 476px) {
+    #strawberry {
+        margin-left: 30px;
+    }
+
+    #bake3 h3 {
+        font-size: 25px;
+    }
+
+    #billionaires {
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 471px) {
+    
+    #bake3 h3 {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 455px) and (min-width:425px) {
+
+    #bake1,   #bake2,   #bake3,   #bake4,   #bake5,   #bake6 {
+        width: 80%;
+        margin-left: 20px;
+    } 
+    #strawberry {
+        margin-left: 70px;
+    }
+
+    #caramallow {
+        margin-right: 70px;
+    }
+
+    #lemon-cake {
+        margin-left: 5px;
+    }
+
+    #halcyon{
+        margin-right: 10px;
+    }
+
+    #billionaires {
+        margin-left: 70px;
+    }
+
+    #bake6 h3 {
+        font-size: 20px;
+    }
+
+    #hitmeup {
+        margin-right: 0px;
+    }
+
+
+}
 @media screen and (max-width: 425px) {
 
-    #about-us-box {
-        margin-left: 5px;
+    #strawberry, #caramallow, #lemon-cake, #halcyon, #billionaires, #hitmeup {
+        margin: 0 auto;
+    }
+    #our-bakes h2 {
+        font-size: 50px;
+    }
+    #tagline {
+        margin-top: 10px;
+        font-size: 18px;
+    }
+    #hero-image {
+        height: 400px;
+        width: 95%;
+        margin-bottom: 30px;
+    }
+
+    #about {
+        margin: 0 auto;
+        width: 80%;
+        padding-right: 10px;
+        position:static;
+    }
+
+    #about h2 {
+       font-size: 30px;
+    }
+
+
+    #about p {
+        font-size: 18px;
     }
 
        #bake1 {
@@ -753,8 +917,14 @@ height: 20px;
         margin-left: 20px;
     }
 
+    #strawberry {
+        width: 180px;
+        height: 180px;
+        margin-left: 70px;
+    }
+
     #caramallow {
-        margin-right: 60px;
+        margin-right: 70px;
     }
 
     #bake2 {
@@ -764,7 +934,7 @@ height: 20px;
 
     #lemon-cake {
         margin-top: 5px;
-        margin-left: 60px;
+        margin-left: 70px;
     }
 
     #bake3 {
@@ -773,9 +943,8 @@ height: 20px;
     }
 
     #halcyon {
-            margin-right: 60px;
+            margin-right: 70px;
         }
-    
 
     #bake4 {
         width: 80%;
@@ -787,80 +956,145 @@ height: 20px;
         margin-left: 20px;
     }
 
+    #billionaires {
+        margin-left: 70px;
+    }
+
     #bake6 {
         width: 80%;
         margin-left: 20px;
     }
 
+    #bake6 h3 {
+    font-size: 20px;
+    }
+
     #hitmeup {
         margin-top: 5px;
-        margin-right: 60px;
+        margin-right: 20px;
+    }
+
+    .contact-section {
+        margin-top: 30px;
     }
 
     .contact-us-form {
-        margin-right: 100px;
-        margin-bottom: 5px;
-        }
+        margin: 0 auto; 
+    }
+}
+
+@media screen and (max-width: 406px) {
+
+    #bake6 h3 {
+        font-size: 18px;
+    }
 } 
-
-
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 386px) and (min-width:376px) {
 
     #tagline {
         font-size: 15px;
     }
 
-    #tagline-contact {
-        font-size: 20px;
+    #about {
+        margin: 0 auto;
+        width: 90%;
+        padding-right: 5px;
+        position:static;
     }
-    #about-us-box {
-        width: 75%;
-        margin-left: 10px;
+    }
+    
+
+    @media screen and (max-width: 376px) and (min-width:351px) {
+
+        #tagline {
+            font-size: 20px;
+        }
+
+        #hero-image {
+            height: 500px;
+            width: 100%;
+        }
     }
 
-    #strawberry {
-        margin-left: 40px;
-       }
-    
-       #caramallow {
-        margin-right: 40px;
-       }
-    
-       #lemon-cake {
-        margin-left: 40px;
-       }
-    
-       #halcyon {
-        margin-right: 40px;
-       }
-    
-     #billionaires {
-        margin-left: 40px;
-       }
-    
-       #hitmeup {
-        margin-right: 40px;
-       }    
-} 
-
-
-@media screen and (max-width: 331px) {
+@media screen and (max-width: 375px) {
 
     #tagline {
         font-size: 12px;
     }
 
-
-    #tagline-contact {
-        font-size: 12px;
+    #about {
+        margin: 0 auto;
+        width: 90%;
+        position:static;
     }
-    #about-us-box {
-        width: 70%;
-        margin-left: 15px;
+
+    #about-us-box p {
+        font-size: 20px;
+    }
+
+    #strawberry {
+        margin-left: 50px;
+       }
+    
+       #caramallow {
+        margin-right: 50px;
+       }
+    
+       #lemon-cake {
+        margin-left: 50px;
+       }
+    
+       #halcyon {
+        margin-right: 50px;
+       }
+    
+     #billionaires {
+        margin-left: 50px;
+       }
+    
+       #hitmeup {
+        margin-right: 50px;
+       }    
+
+       .contact-section {
+        margin-top: 15px;
+    }
+} 
+
+@media screen and (max-width:358x) and (min-width:320px) {
+
+#tagline {
+    font-size: 12px;
+    margin-left: 10px;
+}
 }
 
+@media screen and (max-width: 351px) and (min-width:332px) {
+
+    #about {
+        margin: 0 auto;
+        width: 80%;
+        padding-right: 15px;
+        position:static;
+    }
+    }
+
+@media screen and (max-width: 331px) {
+
+    #hero-image {
+        height: 600px;
+        width: 80%;
+    }
+
+    #about {
+        margin: 0 auto;
+        width: 80%;
+        padding-right: 5px;
+        position:static;
+    }
+
 #about-us-box p {
-    font-size: 15px;
+    font-size: 18px;
 }
 
 #bake1 {
@@ -917,18 +1151,35 @@ height: 20px;
 }
 }
 
-.contact-us-form {
-    margin-right: 30px;
+
+@media screen and (max-width:320px) and (min-width:250px) { 
+
+    .topnav {
+        margin: 0 auto;
     }
 
-@media screen and (max-width:320px) { 
-    
+    #tagline {
+        font-size: 12px;
+    }
+
+    #about {
+        margin: 0 auto;
+        width: 80%;
+        padding-right: 5px;
+        position:static;
+    }
+
+
+    #about p {
+    font-size: 18px;    
+}
+
     #bake1 {
         margin-left: 15px;
     }
     
     #strawberry {
-        margin-left: 20px;
+        margin-left: 30px;
     }
     
     #bake2 {
@@ -937,7 +1188,7 @@ height: 20px;
     }
     
     #caramallow {
-        margin-right: 20px;
+        margin-right: 30px;
     }
     
     #bake3 {
@@ -946,7 +1197,7 @@ height: 20px;
     }
     
     #lemon-cake {
-        margin-left: 20px;
+        margin-left: 30px;
     }
     
     #bake4 {
@@ -955,7 +1206,8 @@ height: 20px;
     }
     
     #halcyon {
-        margin-right: 20px;
+        margin-top: 20px;
+        margin-right: 30px;
     }
     
     #bake5 {
@@ -964,7 +1216,7 @@ height: 20px;
     }
     
     #billionaires {
-        margin-left: 20px;
+        margin-left: 30px;
     }
     
     #bake6 {
@@ -973,11 +1225,14 @@ height: 20px;
     }
     
     #hitmeup {
-        margin-right: 20px;
+        margin-right: 30px;
     }
+        .contact-section {
+            margin-top: 20px;
+        }
+
+        .contact-us-form {
+        margin: 0 auto; 
+    } 
 }
 
-.contact-us-form {
-    margin-right: 105px;
-    }
-}
