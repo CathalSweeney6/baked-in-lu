@@ -3,6 +3,8 @@
 
 The site consists of three pages, being the Home page, the Our Bakes page and the Contact Us page. The Website is very easy to navigate and use.
 
+![amiresponsive-screenshot](assets/images/amiresponsive-screenshot.png)
+
 ## Inception and Initial Design
 
 I had a rough idea, in my head, of how I wanted to the website to look like, after a project inception meeting with my mentor, he reccommended that I use Balsamiq to draft out some rough mock-up wireframes of how I wanted to design the website. These were the designs, which I believe match the finished project. 
@@ -12,6 +14,8 @@ I had a rough idea, in my head, of how I wanted to the website to look like, aft
 ![Contact](assets/images/contactwireframe.png)
 
 ## Features
+
+* Navigation and Ease of Access
 
 ### Hamburger Menu
 * I placed a dropdown hamburger menu at the top-right corner of the website. 
@@ -26,6 +30,12 @@ I had a rough idea, in my head, of how I wanted to the website to look like, aft
 * The header also features a hero image, which is a stock image from pexels.com that suits the colour scheme of the website.
 
 ![header](assets/images/header-screenshot.png)
+
+### About Us Section 
+
+The 'About Us' section is centered under the Hero Image on the home page. It gives a brief bit of information on the business and the services that they offer. The 'About Us' section sits on a styled box div that is designed, based of the company's logo and its colour scheme. 
+
+![about-us](assets/images/about-us-screenshot.png)
 
 ### Our Bakes 
 
@@ -49,7 +59,7 @@ I had a rough idea, in my head, of how I wanted to the website to look like, aft
 
 ![footer](assets/images/footer-screenshot.png)
 
-## Colour scheme and design 
+## Colour Scheme and Design 
 
 The colour scheme of the website, was based on their colours that feature in the company's logo. Using imagecolorpicker.com, I was able to isolate and identify the RGB values for the different colours that I wanted to use for the website. See the RBG colour palette, below the company logo, created on coolors.com.
 
