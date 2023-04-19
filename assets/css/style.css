@@ -10,8 +10,8 @@ header a {
 }
 
 #logo {
-max-width: 200px;
-max-height: 200px;
+max-width: 300px;
+max-height: 300px;
 resize: both;
 border-left: 30px;
 border-top: 10px;
@@ -33,7 +33,7 @@ margin-left:60px;
   
 .topnav {
     background-color:#fffef1;
-    margin: 0;
+    margin-right: 0;
 }
 
   .topnav #myLinks {
@@ -430,6 +430,65 @@ footer {
 height: 20px;
 }
 
+
+@media screen and (max-width: 1600px) {
+
+
+    #logo {
+        margin-left: 20px;
+    }
+
+    #tagline {
+        font-size: 50px;
+        margin-left: 20px;
+    }
+
+    #hero-image {
+       margin-top: 40px;
+       margin-bottom: 30px;
+    }
+
+    #about {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    #bake1, #bake2, #bake3, #bake4, #bake5, #bake6 {
+        margin: 0 auto;
+        float: none;
+        width: 1200px;
+    }
+
+    #strawberry, #lemon-cake, #hitmeup {
+        width: 200px;
+        height: 200px;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+    #caramallow, #halcyon, #billionaires {
+        width: 200px;
+        height: 200px;
+        margin-top: 50px;
+        margin-right: 50px;
+    }
+
+    .contact-us-form {
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (max-width: 1200px) and (min-width:1024px) {
+
+    #bake1, #bake2, #bake3, #bake4, #bake5, #bake6 {
+        margin: 0 auto;
+        float: none;
+        width: 1000px;
+    }
+}
+
+
 @media screen and (max-width: 1024px) {
 
     .topnav {
@@ -437,13 +496,13 @@ height: 20px;
     }
 
     #logo {
-        width: 300px;
-        height: 300px;
+        width: 200px;
+        height: 200px;
         margin-left: 10px;
         }
 
         #tagline {
-            font-size: 25px;
+            font-size: 30px;
             margin-left: 0;
             padding-left: 30px;
             padding-top: 10px;
@@ -552,7 +611,7 @@ height: 20px;
 @media screen and (max-width: 835px) {
     
     #tagline {
-            font-size: 20px;
+            font-size: 25px;
             margin-left: 0;
             padding-left: 30px;
             padding-top: 20px;
@@ -992,13 +1051,13 @@ height: 20px;
 @media screen and (max-width: 386px) and (min-width:376px) {
 
     #tagline {
-        font-size: 15px;
+        font-size: 18px;
     }
 
     #about {
         margin: 0 auto;
         width: 90%;
-        padding-right: 5px;
+        padding-right: 10px;
         position:static;
     }
     }
@@ -1019,8 +1078,12 @@ height: 20px;
 @media screen and (max-width: 375px) {
 
     #tagline {
-        font-size: 12px;
-    }
+            font-size: 25px;
+            font-weight: bolder;
+            margin-right: 25px;
+            letter-spacing: 1px;
+        }
+    
 
     #about {
         margin: 0 auto;
@@ -1060,14 +1123,6 @@ height: 20px;
         margin-top: 15px;
     }
 } 
-
-@media screen and (max-width:358x) and (min-width:320px) {
-
-#tagline {
-    font-size: 12px;
-    margin-left: 10px;
-}
-}
 
 @media screen and (max-width: 351px) and (min-width:332px) {
 
@@ -1158,9 +1213,6 @@ height: 20px;
         margin: 0 auto;
     }
 
-    #tagline {
-        font-size: 12px;
-    }
 
     #about {
         margin: 0 auto;
