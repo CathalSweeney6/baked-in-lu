@@ -417,12 +417,14 @@ border: #ef8b24 solid 2px;
 
 #map-wrapper {
     height: 300px;
+    width: 100%;
+    float: none;
     margin-bottom: 0;
 }
 
 #map {
-    height: 100%;
-    width: 100%;
+    height:inherit;
+    width: inherit;
     right: 0;
     left: 0;
     border: none;
@@ -1002,7 +1004,7 @@ height: 20px;
         font-size: 20px;
     }
 
-    #bake2 h3 {
+    #bake h3 {
         font-size: 20px;
     }
     }
