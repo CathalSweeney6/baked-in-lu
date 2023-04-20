@@ -2,7 +2,6 @@ body {
     font-family: Lato, sans-serif;
     color: #333333;
     background-color: #fffef1;
-    overflow: hidden;
 }
 
 header a {
@@ -418,7 +417,7 @@ border: #ef8b24 solid 2px;
 
 #map-wrapper {
     height: 300px;
-    margin-bottom: 107px;
+    bottom: 0;
 }
 
 #map {
