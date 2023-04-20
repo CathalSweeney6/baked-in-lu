@@ -1282,8 +1282,7 @@ height: 20px;
         margin-top: 15px;
     }
 } 
-
-@media screen and (max-width: 351px) and (min-width:332px) {
+@media screen and (max-width: 351px) {
 
     #about {
         margin: 0 auto;
@@ -1292,6 +1291,34 @@ height: 20px;
         position:static;
     }
     }
+
+@media screen and (max-width: 340px) {
+
+    #strawberry {
+        margin-left: 40px;
+    }
+
+    #caramallow {
+        margin-right: 35px;
+    }
+
+    #lemon-cake {
+        margin-left: 35px;
+    }
+
+    #halcyon {
+        margin-right: 35px;
+    }
+
+    #billionaires {
+            margin-left: 35px;
+        }
+
+        #hitmeup {
+            margin-right: 10px;
+        }
+    }
+}
 
 @media screen and (max-width: 331px) {
 
