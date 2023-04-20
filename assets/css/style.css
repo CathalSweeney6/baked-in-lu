@@ -417,7 +417,7 @@ border: #ef8b24 solid 2px;
 
 #map-wrapper {
     height: 300px;
-    bottom: 0;
+    margin-bottom: 0;
 }
 
 #map {
