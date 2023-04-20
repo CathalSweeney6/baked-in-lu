@@ -900,6 +900,10 @@ height: 20px;
 
 @media screen and (max-width: 503px) {
 
+    #bake1,   #bake2,   #bake3,   #bake4,   #bake5,   #bake6 {
+        margin: 30px;
+    }
+
     #strawberry {
         margin-left: 100px;
     }
@@ -922,7 +926,8 @@ height: 20px;
 
     #bake1,   #bake2,   #bake3,   #bake4,   #bake5,   #bake6 {
         width: 90%;
-    }, 
+        margin: 10px;
+    } 
 
     #bake3 h3 {
         font-size: 20px;
@@ -1368,6 +1373,7 @@ height: 20px;
 }
 
     #bake1 {
+        width: 80%;
         margin-left: 15px;
     }
     
@@ -1377,7 +1383,7 @@ height: 20px;
     
     #bake2 {
         width: 80%;
-        margin-left: 20px;
+        margin-left: 15px;
     }
     
     #caramallow {
@@ -1386,7 +1392,7 @@ height: 20px;
     
     #bake3 {
         width: 80%;
-        margin-left: 20px;
+        margin-left: 15px;
     }
     
     #lemon-cake {
@@ -1395,7 +1401,7 @@ height: 20px;
     
     #bake4 {
         width: 80%;
-        margin-left: 20px;
+        margin-left: 15px;
     }
     
     #halcyon {
@@ -1405,7 +1411,7 @@ height: 20px;
     
     #bake5 {
         width: 80%;
-        margin-left: 20px;
+        margin-left: 15px;
     }
     
     #billionaires {
@@ -1414,7 +1420,7 @@ height: 20px;
     
     #bake6 {
         width: 80%;
-        margin-left: 20px;
+        margin-left: 15px;
     }
     
     
