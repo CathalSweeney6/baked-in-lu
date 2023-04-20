@@ -9,8 +9,16 @@ The site consists of three pages, the 'Home' page, the 'Our Bakes' page and the 
 
 I had a rough idea in my head of how I wanted to the website to look like, after a project inception meeting with my mentor, he recommended that I use 'Balsamiq' to draft out some rough mock-up wireframes of how I wanted to design the website. These were the designs, which I believe match the finished project. 
 
+* Home Page
+
 <img src ="assets/images/homewireframe.png" width=300 height=300>
+
+* Our Bakes 
+
 <img src ="assets/images/bakeswireframe.png" width=300 height=300>
+
+* Contact Us
+
 <img src ="assets/images/contactwireframe.png" width=300 height=300>
 
 ## Features
