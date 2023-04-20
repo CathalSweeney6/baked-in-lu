@@ -920,6 +920,10 @@ height: 20px;
 
 @media screen and (max-width: 499px) {
 
+    #bake1,   #bake2,   #bake3,   #bake4,   #bake5,   #bake6 {
+        width: 90%;
+    }, 
+
     #bake3 h3 {
         font-size: 20px;
     }
@@ -927,6 +931,19 @@ height: 20px;
     #bake5 h3 {
         font-size: 18px;
     }
+
+    #strawberry {
+        margin-left: 30px;
+    }
+
+    #caramallow {
+        margin-right: 30px;
+    }
+
+    #lemon-cake {
+        margin-left: 10px;
+    }
+
 
     #billionaires {
         margin-left: 10px;
