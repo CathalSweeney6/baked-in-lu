@@ -897,10 +897,39 @@ height: 20px;
     }
     }
 }
+
+@media screen and (max-width: 503px) {
+
+    #strawberry {
+        margin-left: 100px;
+    }
+
+    #caramallow {
+        margin-right: 100px;
+    }
+
+    #bake5 h3 {
+        font-size: 20px;
+    }
+
+    #billionaires {
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+}
+
 @media screen and (max-width: 499px) {
 
     #bake3 h3 {
         font-size: 20px;
+    }
+
+    #bake5 h3 {
+        font-size: 18px;
+    }
+
+    #billionaires {
+        margin-left: 10px;
     }
 }
 
