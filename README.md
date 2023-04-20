@@ -48,7 +48,7 @@ The 'About Us' section is centered under the Hero Image on the 'Home' page. It g
 
 ### Our Bakes 
 
-* The second page of the webiste features six of the most popular bakes by the Bakery. 
+* The second page of the website features six of the most popular bakes by the Bakery. 
 * Each bakes are aligned in opposite directions, per-row, along with a short descriptive paragraph in their box divs.
 * The designed box divs are based off the company logo, with the RGB charcoal and orange colors, taken from the logo, using an eyedropper tool. 
 
